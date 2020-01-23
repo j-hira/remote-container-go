@@ -5,6 +5,6 @@
       "docker-compose.extend.yml"
     ],
     "service": "app",
-    "workspaceFolder": "/home",
+    "workspaceFolder": "/work",
     "shutdownAction": "stopCompose"
   }
