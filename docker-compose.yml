@@ -1,12 +1,15 @@
 version: "3"
 services:
     app:
-        image: golang:1.13-alpine
+        build:
+            context: .
+            dockerfile: Dockerfile
         working_dir: /home
         tty: true
         ports:
             - 8001:8001
         volumes:
             - ./:/home
+        command: /bin/ash
         environment:
             PORT: 8001
