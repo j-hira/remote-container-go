@@ -1,0 +1,12 @@
+version: "3"
+services:
+    app:
+        image: golang:1.13-alpine
+        working_dir: /home
+        tty: true
+        ports:
+            - 8001:8001
+        volumes:
+            - ./:/home
+        environment:
+            PORT: 8001
