@@ -11,4 +11,5 @@ rm -rf .git
 git init
 code .
 ```
+
 左下の **リモート ウィンドウを開く** から **Remote-Containers: Reopen in Container**を選択。

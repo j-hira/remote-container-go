@@ -4,5 +4,5 @@ services:
         environment:
             - HOME=/work
         volumes:
-            - ~/.gitconfig:/home/.gitconfig
-            - ~/.ssh:/home/.ssh
+            - ~/.gitconfig:/work/.gitconfig
+            - ~/.ssh:/work/.ssh
